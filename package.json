@@ -1,0 +1,76 @@
+{
+  "name": "neon-palette-themes",
+  "displayName": "Neon Palette Themes",
+  "description": "A balanced VS Code theme with an extensive color variety.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "icon": "images/icon.png",
+  "publisher": "Jofa8",
+  "author": {
+    "name": "Joel Fano",
+    "email": "jofaprog@gmail.com",
+    "url": "https://github.com/Jofa8"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "themes",
+    "palette",
+    "neon",
+    "modern",
+    "dark",
+    "orange",
+    "cyan",
+    "yellow",
+    "pink",
+    "green",
+    "red",
+    "blue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jofa8/neon-palette-themes"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Palette Themes (Blue)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-blue.json"
+      },
+      {
+        "label": "Neon Palette Themes (Red)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-red.json"
+      },
+      {
+        "label": "Neon Palette Themes (Green)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-green.json"
+      },
+      {
+        "label": "Neon Palette Themes (Pink)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-pink.json"
+      },
+      {
+        "label": "Neon Palette Themes (Yellow)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-yellow.json"
+      },
+      {
+        "label": "Neon Palette Themes (Cyan)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-cyan.json"
+      },
+      {
+        "label": "Neon Palette Themes (Orange)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-palette-themes-orange.json"
+      }
+    ]
+  }
+}
